@@ -1,0 +1,9 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/vbansal/Workspace/varunImp/ReactScalaWebApp/server/src/main/scala/com/shoppingCart/Routes/StateRoute.scala:40:32: non-variable type argument com.shoppingCart.Models.Domains.State in type pattern List[com.shoppingCart.Models.Domains.State] (the underlying of List[com.shoppingCart.Models.Domains.State]) is unchecked since it is eliminated by erasure[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  case states: List[State] => complete(OK, states)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/vbansal/Workspace/varunImp/ReactScalaWebApp/server/src/main/scala/com/shoppingCart/Routes/StateRoute.scala:59:63: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Success((x: Any forSome x not in com.shoppingCart.Flows.StateFlow.StateAddedSuccessFully))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                onComplete(stateFlow ? AddNewState(stateDto)) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were two feature warnings; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m

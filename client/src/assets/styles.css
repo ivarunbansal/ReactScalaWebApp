@@ -1,0 +1,300 @@
+
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin:0 auto;
+  max-width: 1920px;
+  line-height: 15px;
+  padding:0;
+  color:#010000;
+  background: #fff;
+}
+#container
+{
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0;
+  background: #efefef; 
+    
+}
+a{
+   text-decoration: none;
+   font-size:18px;
+   line-height:22px;
+    color:#010000;
+    cursor:pointer;
+    
+}
+
+#headerdiv{
+  width:1000px;
+	height:100px;
+	margin:auto;
+}
+
+#headerdiv h2{
+color:#5B2C6F;
+margin-left:323px;
+font-stretch: expanded;
+font-size: 50px;
+
+}
+
+.active{
+
+  color:yellow;
+}
+
+#home{
+  width:1000px;
+	height:100px;
+  margin:auto;
+  font-family: proximanova-regular;
+}
+
+
+
+#contact{
+  width:1000px;
+	height:100px;
+	margin:auto;
+}
+#about{
+  width:1000px;
+	height:100px;
+	margin:auto;
+}
+#states{
+  width:1000px;
+	height:100px;
+	margin:auto;
+}
+
+
+#stateview{
+  width:1000px;
+	height:100px;
+	margin:auto;
+}
+
+#stateedit{
+  width:1000px;
+	height:100px;
+	margin:auto;
+  margin-top: 20px;
+}
+#statecreate{
+  width:1000px;
+	height:100px;
+	margin:auto;
+  margin-top: 20px;
+}
+
+#statesloader{
+  width:1000px;
+	height:100px;
+	margin:auto;
+}
+
+ .teammember img {
+  max-width: 150px;
+  max-height: 150px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+
+
+#states h2{
+
+  margin-left:357px;
+  font-stretch: expanded;
+  font-size: 40px;
+}
+
+#contact h2{
+
+  margin-left:357px;
+  font-stretch: expanded;
+  font-size: 40px;
+}
+#about h2{
+
+  margin-left:357px;
+  font-stretch: expanded;
+  font-size: 40px;
+}
+
+#stateedit h2{
+
+  margin-left:357px;
+  font-stretch: expanded;
+  font-size: 40px;
+}
+#statecreate h2{
+
+  margin-left:357px;
+  font-stretch: expanded;
+  font-size: 40px;
+}
+#stateview h2{
+
+  margin-left:357px;
+  font-stretch: expanded;
+  font-size: 40px;
+}
+
+
+
+#states table {
+width: 80%;
+
+margin:auto;
+}
+
+
+
+/* #states table tr:hover{
+
+   background-color:#5B2C6F;
+} */
+
+
+/* #states table tr:nth-child(even) {background-color: #f2f2f2;} */
+
+#states table tr td{
+
+ 
+text-align: left;
+padding: 15px;
+border-bottom: 1px solid #ddd;
+}
+#states table tr:hover{
+
+ background-color: #5B2C6F;
+
+  }
+
+#states table tr td img{
+  width: 34px;
+  height: 23px;
+}
+
+
+
+#states table thead tr th{
+  
+  background-color: #4CAF50;
+  color: white;  
+  height:29px;
+  text-align: left;
+  
+}
+
+
+#stateview table {
+  width: 80%;
+  
+  margin:auto;
+  }
+  
+  #stateedit table ,#statecreate table {
+    width: 80%;
+    
+    margin:auto;
+    }
+
+    #stateedit  table tr td,#statecreate table tr td{
+
+      text-align: left;
+      padding: 15px;
+      border-bottom: 1px solid #ddd;
+      }
+
+
+      
+    #stateedit  table tr td input,#statecreate table tr td input {
+       
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #000000;
+    
+     
+
+      }
+      #stateedit  table tr td input:focus,#statecreate table tr td input:focus {
+        outline-width: 0;
+    }
+      
+#stateview table tr td{
+
+  text-align: left;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  }
+  
+
+
+#headerdiv a{
+  text-decoration:none;	
+  color:white;
+  padding:8px;
+  margin:5px;
+  font-size:18px;
+  font-family:COMIC SANS MS;	
+  }
+  
+#headerdiv  a:hover{color:yellow; font-weight:bolder;
+  /* transition: all .4s ease-in-out; 
+    -webkit-transition: all .4s ease-in-out; 
+   -moz-transition: all .4s ease-in-out;  */
+    
+     
+}
+
+#headerdiv  a.active{color:yellow; font-weight:bolder;
+  /* transition: all .4s ease-in-out; 
+    -webkit-transition: all .4s ease-in-out; 
+   -moz-transition: all .4s ease-in-out;  */
+    
+     
+}
+
+
+/* .button.success{
+
+  color:yellow; font-weight:bolder;
+} */
+
+
+ #headerdiv ul{
+	width:1000px;
+	height:50px;
+	color:white;	
+  background:#5B2C6F;
+  line-height:40px;
+}
+
+.address{
+display: block;
+    font-family: proximanova-regular;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 4px;
+    color: #9d92b2;
+    font-size: 14px;
+}
+
+.updatebutton{border:none;display:inline-block;outline:0;padding:6px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:#fff;background-color:#5B2C6F;text-align:center;cursor:pointer;white-space:nowrap;margin-left: 200px;
+  margin-top: 50px;}
+
+.updatebutton:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+
+.updatebutton{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none} 
+
+
