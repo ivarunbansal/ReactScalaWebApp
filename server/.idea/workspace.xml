@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="25" />
+    <option name="width" value="657" />
+    <option name="height" value="743" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../simn/simn-server" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../ReactShoppingBackend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../akka-http-redis" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../swagger-ui-akka-http.g8" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../websocket-akka-http" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
