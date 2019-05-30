@@ -116,6 +116,19 @@ export function getUpdatedState(id) {
 }
 
 
+export function deleteState(id){
+
+    return function(dispatch,deleteState)
+{
+    dispatch(loading(true));
+service.deleteState(id).then(id=>{
+ let action = fetchStates();
+    dispatch(action);
+    dispatch(loading(false));
+})
+
+}
+}
 
 
 export function getStateById(id) {

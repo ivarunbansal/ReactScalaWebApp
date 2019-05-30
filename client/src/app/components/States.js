@@ -10,6 +10,10 @@ export default class States extends Component{
         this.props.fetchStates();
     }
 
+deleteState(id){
+this.props.deleteState(id)
+}
+
     refresh() {
         this.props.fetchStates();
     }
@@ -55,6 +59,10 @@ State Name
             <th>
                 Edit
             </th>
+            <th>
+                Delete
+            </th>
+ 
     </tr>
 
  </thead>
@@ -79,6 +87,10 @@ State Name
 <td>
             <NavLink to={`/states/edit/${state.id}`}  >   <img src="../../assets/Edit.png" /></NavLink>
 </td>
+
+<td>
+<button onClick={() => this.deleteState(state.id)}> <img src="../../assets/Delete.png" /></button>
+            </td>
 
                 </tr>
             ))

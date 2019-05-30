@@ -51,4 +51,17 @@ export function createState(state,headers=undefined){
     // })
    
   
+
+
+
 }
+
+export function deleteState(id,headers=undefined){
+return fetch(config.apiEndPoint+"/states/state?id="+id,{
+ method: 'DELETE'
+})
+.then(response=>{
+      console.log("response is ", response);
+ })
+}
+ 

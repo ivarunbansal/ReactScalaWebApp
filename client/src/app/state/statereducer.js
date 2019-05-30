@@ -15,7 +15,7 @@ export default function statereducer(state = INITIAL_STATE, action) {
 
         case ActionTypes.ERROR:
             return Object.assign({}, state, {error: action.payload.error});
-
+            
         default:
             return state;
     }
